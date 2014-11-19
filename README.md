@@ -28,7 +28,6 @@ Configuration
       <level value="DEBUG" />
       <appender-ref ref="TestAppender" />
     </root>
-
     <logger name="AppTest">
       <level value="DEBUG" />
       <appender-ref ref="TestAppender" />
