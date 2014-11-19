@@ -12,5 +12,28 @@ Supported Frameworks
 1.	.Net compact framework (2.0 or later)
 
 2.	.Net framework (3.5 or later)
+	
+
+Configuration
+
+
+<log4net>
+    <appender name="TestAppender" type="Log4Net.Full.GoogleSpreadSheetAppender.GoogleSheetAppender, Log4Net.Full.GoogleSpreadSheetAppender">
+      <username value="your@gmail.com" />
+      <password value="yourpassword" />
+      <sheetName value="yoursheetname" />
+      <lossy value="true"/> <!-- for buffering logging -->
+      <evaluator type="Log4Net.Full.GoogleSpreadSheetAppender.InternetConnectionEvaluator, Log4Net.Full.GoogleSpreadSheetAppender"></evaluator>
+    </appender>
+    <root>
+      <level value="DEBUG" />
+      <appender-ref ref="TestAppender" />
+    </root>
+
+    <logger name="AppTest">
+      <level value="DEBUG" />
+      <appender-ref ref="TestAppender" />
+    </logger>
+  </log4net>
 
 
