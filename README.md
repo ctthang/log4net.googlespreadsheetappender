@@ -16,6 +16,7 @@ Supported Frameworks
 
 Configuration
 
+For .Net Framework
 ``` xml
 <log4net>
     <appender name="TestAppender" type="Log4Net.Full.GoogleSpreadSheetAppender.GoogleSheetAppender, Log4Net.Full.GoogleSpreadSheetAppender">
@@ -36,3 +37,25 @@ Configuration
   </log4net>
 ```
 
+For .Net Compact Framework
+```xml
+<log4net>
+    <appender name="TestAppender" type="Log4Net.CP.GoogleSpreadSheetAppender.GoogleSheetAppender, Log4Net.CP.GoogleSpreadSheetAppender">
+      <username value="youraccount@gmail.com" />
+      <password value="yourpassword" />
+      <sheetName value="yoursheetname" />
+      <lossy value="true"/>
+      <evaluator type="Log4Net.CP.GoogleSpreadSheetAppender.InternetConnectionEvaluator, Log4Net.CP.GoogleSpreadSheetAppender"></evaluator>
+    </appender>
+    <root>
+      <level value="DEBUG" />
+      <appender-ref ref="TestAppender" />
+    </root>
+
+    <logger name="AppTest">
+      <level value="DEBUG" />
+      <appender-ref ref="TestAppender" />
+    </logger>
+  </log4net>
+
+```
