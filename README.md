@@ -16,6 +16,7 @@ Supported Frameworks
 
 Configuration
 
+``` xml
 <log4net>
     <appender name="TestAppender" type="Log4Net.Full.GoogleSpreadSheetAppender.GoogleSheetAppender, Log4Net.Full.GoogleSpreadSheetAppender">
       <username value="youraccount@gmail.com" />
@@ -33,3 +34,5 @@ Configuration
       <appender-ref ref="TestAppender" />
     </logger>
   </log4net>
+```
+
