@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/>
+  </configSections>
+
+  <log4net>
+    <appender name="TestAppender" type="Log4Net.CP.GoogleSpreadSheetAppender.GoogleSheetAppender, Log4Net.CP.GoogleSpreadSheetAppender">
+      <username value="l4nsheetappender@gmail.com" />
+      <password value="Test!234" />
+      <sheetName value="LoggingTest" />
+      <lossy value="true"/>
+      <evaluator type="Log4Net.CP.GoogleSpreadSheetAppender.InternetConnectionEvaluator, Log4Net.CP.GoogleSpreadSheetAppender"></evaluator>
+    </appender>
+    <root>
+      <level value="DEBUG" />
+      <appender-ref ref="TestAppender" />
+    </root>
+
+    <logger name="AppTest">
+      <level value="DEBUG" />
+      <appender-ref ref="TestAppender" />
+    </logger>
+  </log4net>
+</configuration>

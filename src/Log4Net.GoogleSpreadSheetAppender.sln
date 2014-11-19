@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.Full.GoogleSpreadSheetAppender", "Log4Net.Full.GoogleSpreadSheetAppender\Log4Net.Full.GoogleSpreadSheetAppender.csproj", "{5D11EB6B-E5F7-4C9E-B745-320604EDC185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationTest", "ConsoleApplicationTest\ConsoleApplicationTest.csproj", "{7DF9269B-82A4-4DF0-AB76-0E246C6CDD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDeviceProjectTest", "SmartDeviceProjectTest\SmartDeviceProjectTest.csproj", "{5DABB354-7874-473F-877C-FB92CCCB62C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.CP.GoogleSpreadSheetAppender", "Log4Net.CP.GoogleSpreadSheetAppender\Log4Net.CP.GoogleSpreadSheetAppender.csproj", "{5F0CA2AF-4DA9-4C44-A431-B4067B4F2E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDeviceProject.Console", "SmartDeviceProject.Console\SmartDeviceProject.Console.csproj", "{7674AB69-8732-4171-812D-C4C414DAC806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.CP.GoogleSpreadSheetAppender.Unittest", "Log4Net.CP.GoogleSpreadSheetAppender.Unittest\Log4Net.CP.GoogleSpreadSheetAppender.Unittest.csproj", "{AB0B7CBD-95FD-4384-A574-95C29F879527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E953E179-17FF-4D51-B3A3-03C72060FADD}"
+	ProjectSection(SolutionItems) = preProject
+		Log4Net.GoogleSpreadSheetAppender.vsmdi = Log4Net.GoogleSpreadSheetAppender.vsmdi
+		SmartDeviceTestRun.testrunConfig = SmartDeviceTestRun.testrunConfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCETest", "WindowsCETest\WindowsCETest.csproj", "{90D9B1F9-8D05-439E-BA20-BB78CE781873}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Log4Net.GoogleSpreadSheetAppender.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D11EB6B-E5F7-4C9E-B745-320604EDC185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D11EB6B-E5F7-4C9E-B745-320604EDC185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D11EB6B-E5F7-4C9E-B745-320604EDC185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D11EB6B-E5F7-4C9E-B745-320604EDC185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF9269B-82A4-4DF0-AB76-0E246C6CDD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF9269B-82A4-4DF0-AB76-0E246C6CDD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF9269B-82A4-4DF0-AB76-0E246C6CDD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF9269B-82A4-4DF0-AB76-0E246C6CDD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DABB354-7874-473F-877C-FB92CCCB62C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DABB354-7874-473F-877C-FB92CCCB62C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DABB354-7874-473F-877C-FB92CCCB62C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5DABB354-7874-473F-877C-FB92CCCB62C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DABB354-7874-473F-877C-FB92CCCB62C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DABB354-7874-473F-877C-FB92CCCB62C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5F0CA2AF-4DA9-4C44-A431-B4067B4F2E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0CA2AF-4DA9-4C44-A431-B4067B4F2E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0CA2AF-4DA9-4C44-A431-B4067B4F2E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0CA2AF-4DA9-4C44-A431-B4067B4F2E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7674AB69-8732-4171-812D-C4C414DAC806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7674AB69-8732-4171-812D-C4C414DAC806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7674AB69-8732-4171-812D-C4C414DAC806}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7674AB69-8732-4171-812D-C4C414DAC806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7674AB69-8732-4171-812D-C4C414DAC806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7674AB69-8732-4171-812D-C4C414DAC806}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AB0B7CBD-95FD-4384-A574-95C29F879527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0B7CBD-95FD-4384-A574-95C29F879527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0B7CBD-95FD-4384-A574-95C29F879527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0B7CBD-95FD-4384-A574-95C29F879527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D9B1F9-8D05-439E-BA20-BB78CE781873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D9B1F9-8D05-439E-BA20-BB78CE781873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D9B1F9-8D05-439E-BA20-BB78CE781873}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{90D9B1F9-8D05-439E-BA20-BB78CE781873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D9B1F9-8D05-439E-BA20-BB78CE781873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D9B1F9-8D05-439E-BA20-BB78CE781873}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
